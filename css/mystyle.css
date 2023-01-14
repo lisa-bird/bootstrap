@@ -1,0 +1,30 @@
+body {
+    font-family: 'Roboto Condensed', sans-serif; 
+}
+.callout-container {
+  background: url(https://whiskeybon.com/wp-content/uploads/2019/12/Whiskey-on-the-Rocks-768x508.jpg) no-repeat bottom right fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+
+}
+.jumbotron {
+    background-color: transparent;
+    color: beige;
+}
+.opaque-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.2);
+
+}
+.alert-warning {
+    color: #c2d6ca;
+    background-color: #125f0d;
+    border-color: #125f0d;
+}
